@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "<name in manifest.json>",
-  "description": "<description in manifest.json>",
+  "name": "wambot",
+  "description": "mensajes masivos",
   "options_ui": {
     "page": "src/pages/options/index.html"
   },
@@ -12,14 +12,14 @@
   "action": {
     "default_popup": "src/pages/popup/index.html",
     "default_icon": {
-      "32": "icon-32.png"
+      "32": "icon.png"
     }
   },
   "chrome_url_overrides": {
     "newtab": "src/pages/newtab/index.html"
   },
   "icons": {
-    "128": "icon-128.png"
+    "128": "icon.png"
   },
   "permissions": [
     "activeTab"
@@ -44,8 +44,8 @@
     {
       "resources": [
         "contentStyle.css",
-        "icon-128.png",
-        "icon-32.png"
+        "icon.png",
+        "icon.png"
       ],
       "matches": []
     }
